@@ -14,6 +14,8 @@ coolRandom = np.random.standard_cauchy(1000)
 
 
 gr = plt.hist(coolRandom, 100)
+plt.xlabel("Value")
+plt.ylabel("Count")
 plt.savefig("Session4plot.pdf", format="pdf")
 
 
